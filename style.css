@@ -1,0 +1,84 @@
+body{
+    background-image: url(Images/pozadina.jpg);
+    background-repeat:repeat;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+
+}
+#wrapper{
+    background: #ffffff;
+    width: 1080px;
+    margin-left: 200px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.navfot{
+    width: 1070px;
+    background: #474242;
+    padding: 5px;
+    
+}
+#nav{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#nav ul li a{
+    padding:10px 100px 10px 100px;
+    display: block;
+    text-decoration: none;
+    color: #ffab0e;
+}
+#nav ul li a:hover{
+background: #e79908;
+color: #000000;
+}
+#central{
+    display:flex;
+    width:1080;
+    padding: 10px;
+    justify-content: space-between;
+}
+#central a{
+    color:#ffab0e ;
+    text-decoration:none;
+}
+#central a:hover{
+    text-decoration: underline;
+}
+#main{
+    flex-basis: 750px;
+}
+#main img{
+    float:left;
+    margin-right: 5px;
+}
+#sidebar{
+    flex-basis: 330px;
+}
+#sidebar h2{
+    background:#474242;
+    color: #ffab0e;
+}
+#main table{
+background: #e6f5f4;
+empty-cells: hide;
+}
+#main td{
+    border: 1px #302e2e solid;
+}
+#col1{
+  background: #fdfd1f;  
+}
+#footer a{
+    color:  #e79908;
+    text-decoration: none;
+}
+#footer a:hover{
+    text-decoration: underline;
+}
